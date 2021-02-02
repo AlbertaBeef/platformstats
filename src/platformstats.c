@@ -1059,39 +1059,39 @@ struct pmbus_info pmbus_ultra96v2[] =
 struct pmbus_info pmbus_uz7ev_evcc[] =
 {
    //    device   address           name    label                        alias  unit  division
-   //  ir38063-i2c-3-4c
-   {  "ir38063", "3-004c",            "", "pout1", "              Carrier 3V3", "mW", 1000 },
-   //  ir38063-i2c-3-4b
-   {  "ir38063", "3-004b",            "", "pout1", "              Carrier 1V8", "mW", 1000 },
-   // irps5401-i2c-3-4a
-   { "irps5401", "3-004a",            "", "pout1", "      Carrier 0V9 MGTAVCC", "mW", 1000 },
-   { "irps5401", "3-004a",            "", "pout2", "      Carrier 1V2 MGTAVTT", "mW", 1000 },
-   { "irps5401", "3-004a",            "", "pout3", "         Carrier 1V1 HDMI", "mW", 1000 },
- //{ "irps5401", "3-004a",            "", "pout4", "                   Unused", "mW", 1000 },
-   { "irps5401", "3-004a",            "", "pout5", "Carrier 1V8 MGTVCCAUX LDO", "mW", 1000 },
-   // irps5401-i2c-3-49
-   { "irps5401", "3-0049",            "", "pout1", "    Carrier 0V85 MGTRAVCC", "mW", 1000 },
-   { "irps5401", "3-0049",            "", "pout2", "         Carrier 1V8 VCCO", "mW", 1000 },
-   { "irps5401", "3-0049",            "", "pout3", "         Carrier 3V3 VCCO", "mW", 1000 },
-   { "irps5401", "3-0049",            "", "pout4", "          Carrier 5V MAIN", "mW", 1000 },
-   { "irps5401", "3-0049",            "", "pout5", " Carrier 1V8 MGTRAVTT LDO", "mW", 1000 },
-   { "irps5401", "3-0049", "temp1_input", "temp1", "              Temperature",  "C", 1000 },
-   //  ir38063-i2c-3-48
-   {  "ir38063", "3-0048",            "", "pout1", "          SOM 0V85 VCCINT", "mW", 1000 },
-   // irps5401-i2c-3-47
-   { "irps5401", "3-0047",            "", "pout1", "           SOM 1V8 VCCAUX", "mW", 1000 },
-   { "irps5401", "3-0047",            "", "pout2", "                  SOM 3V3", "mW", 1000 },
-   { "irps5401", "3-0047",            "", "pout3", "           SOM 0V9 VCUINT", "mW", 1000 },
-   { "irps5401", "3-0047",            "", "pout4", "       SOM 1V2 VCCO_HP_66", "mW", 1000 },
-   { "irps5401", "3-0047",            "", "pout5", "    SOM 1V8 PSDDR_PLL LDO", "mW", 1000 },
-   { "irps5401", "3-0047", "temp1_input", "temp1", "              Temperature",  "C", 1000 },
-   // irps5401-i2c-3-46
-   { "irps5401", "3-0046",            "", "pout1", "        SOM 1V2 VCCO_PSIO", "mW", 1000 },
-   { "irps5401", "3-0046",            "", "pout2", "     SOM 0V85 VCC_PSINTLP", "mW", 1000 },
-   { "irps5401", "3-0046",            "", "pout3", "  SOM 1V2 VCCO_PSDDR4_504", "mW", 1000 },
-   { "irps5401", "3-0046",            "", "pout4", "     SOM 0V85 VCC_PSINTFP", "mW", 1000 },
-   { "irps5401", "3-0046",            "", "pout5", "    SOM 1V2 VCC_PSPLL LDO", "mW", 1000 },
-   { "irps5401", "3-0046", "temp1_input", "temp1", "              Temperature",  "C", 1000 },
+   //  ir38063-i2c-6-4c
+   {  "ir38063", "6-004c",            "", "pout1", "              Carrier 3V3", "mW", 1000 },
+   //  ir38063-i2c-6-4b
+   {  "ir38063", "6-004b",            "", "pout1", "              Carrier 1V8", "mW", 1000 },
+   // irps5401-i2c-6-4a
+   { "irps5401", "6-004a",            "", "pout1", "      Carrier 0V9 MGTAVCC", "mW", 1000 },
+   { "irps5401", "6-004a",            "", "pout2", "      Carrier 1V2 MGTAVTT", "mW", 1000 },
+   { "irps5401", "6-004a",            "", "pout3", "         Carrier 1V1 HDMI", "mW", 1000 },
+ //{ "irps5401", "6-004a",            "", "pout4", "                   Unused", "mW", 1000 },
+   { "irps5401", "6-004a",            "", "pout5", "Carrier 1V8 MGTVCCAUX LDO", "mW", 1000 },
+   // irps5401-i2c-6-49
+   { "irps5401", "6-0049",            "", "pout1", "    Carrier 0V85 MGTRAVCC", "mW", 1000 },
+   { "irps5401", "6-0049",            "", "pout2", "         Carrier 1V8 VCCO", "mW", 1000 },
+   { "irps5401", "6-0049",            "", "pout3", "         Carrier 3V3 VCCO", "mW", 1000 },
+   { "irps5401", "6-0049",            "", "pout4", "          Carrier 5V MAIN", "mW", 1000 },
+   { "irps5401", "6-0049",            "", "pout5", " Carrier 1V8 MGTRAVTT LDO", "mW", 1000 },
+   { "irps5401", "6-0049", "temp1_input", "temp1", "              Temperature",  "C", 1000 },
+   //  ir38063-i2c-6-48
+   {  "ir38063", "6-0048",            "", "pout1", "          SOM 0V85 VCCINT", "mW", 1000 },
+   // irps5401-i2c-6-47
+   { "irps5401", "6-0047",            "", "pout1", "           SOM 1V8 VCCAUX", "mW", 1000 },
+   { "irps5401", "6-0047",            "", "pout2", "                  SOM 3V3", "mW", 1000 },
+   { "irps5401", "6-0047",            "", "pout3", "           SOM 0V9 VCUINT", "mW", 1000 },
+   { "irps5401", "6-0047",            "", "pout4", "       SOM 1V2 VCCO_HP_66", "mW", 1000 },
+   { "irps5401", "6-0047",            "", "pout5", "    SOM 1V8 PSDDR_PLL LDO", "mW", 1000 },
+   { "irps5401", "6-0047", "temp1_input", "temp1", "              Temperature",  "C", 1000 },
+   // irps5401-i2c-6-46
+   { "irps5401", "6-0046",            "", "pout1", "        SOM 1V2 VCCO_PSIO", "mW", 1000 },
+   { "irps5401", "6-0046",            "", "pout2", "     SOM 0V85 VCC_PSINTLP", "mW", 1000 },
+   { "irps5401", "6-0046",            "", "pout3", "  SOM 1V2 VCCO_PSDDR4_504", "mW", 1000 },
+   { "irps5401", "6-0046",            "", "pout4", "     SOM 0V85 VCC_PSINTFP", "mW", 1000 },
+   { "irps5401", "6-0046",            "", "pout5", "    SOM 1V2 VCC_PSPLL LDO", "mW", 1000 },
+   { "irps5401", "6-0046", "temp1_input", "temp1", "              Temperature",  "C", 1000 },
    //
    { "", "", "", "", "", 1 } 
 };
@@ -1099,27 +1099,27 @@ struct pmbus_info pmbus_uz7ev_evcc[] =
 struct pmbus_info pmbus_uz3eg_xxx[] =
 {
    //    device   address           name    label         alias  unit  division
-   // irps5401-i2c-3-43
-   { "irps5401", "3-0043",            "", "pout1", "       PSIO", "mW", 1000 },
-   { "irps5401", "3-0043",            "", "pout2", "     VCCAUX", "mW", 1000 },
-   { "irps5401", "3-0043",            "", "pout3", "    PSINTLP", "mW", 1000 },
-   { "irps5401", "3-0043",            "", "pout4", "    PSINTFP", "mW", 1000 },
-   { "irps5401", "3-0043",            "", "pout5", "      PSPLL", "mW", 1000 },
-   { "irps5401", "3-0043", "temp1_input", "temp1", "Temperature",  "C", 1000 },
-   // irps5401-i2c-3-44
-   { "irps5401", "3-0044",            "", "pout1", "     PSDDR4", "mW", 1000 },
-   { "irps5401", "3-0044",            "", "pout2", "     INT_IO", "mW", 1000 },
-   { "irps5401", "3-0044",            "", "pout3", "       3.3V", "mW", 1000 },
-   { "irps5401", "3-0044",            "", "pout4", "        INT", "mW", 1000 },
-   { "irps5401", "3-0044",            "", "pout5", "   PSDDRPLL", "mW", 1000 },
-   { "irps5401", "3-0044", "temp1_input", "temp1", "Temperature",  "C", 1000 },
-   // irps5401-i2c-3-45
-   { "irps5401", "3-0045",            "", "pout1", "    MGTAVCC", "mW", 1000 },
-   { "irps5401", "3-0045",            "", "pout2", "         5V", "mW", 1000 },
-   { "irps5401", "3-0045",            "", "pout3", "       3.3V", "mW", 1000 },
-   { "irps5401", "3-0045",            "", "pout4", "  VCCO 1.8V", "mW", 1000 },
-   { "irps5401", "3-0045",            "", "pout5", "    MGTAVTT", "mW", 1000 },
-   { "irps5401", "3-0045", "temp1_input", "temp1", "Temperature",  "C", 1000 },
+   // irps5401-i2c-6-43
+   { "irps5401", "6-0043",            "", "pout1", "       PSIO", "mW", 1000 },
+   { "irps5401", "6-0043",            "", "pout2", "     VCCAUX", "mW", 1000 },
+   { "irps5401", "6-0043",            "", "pout3", "    PSINTLP", "mW", 1000 },
+   { "irps5401", "6-0043",            "", "pout4", "    PSINTFP", "mW", 1000 },
+   { "irps5401", "6-0043",            "", "pout5", "      PSPLL", "mW", 1000 },
+   { "irps5401", "6-0043", "temp1_input", "temp1", "Temperature",  "C", 1000 },
+   // irps5401-i2c-6-44
+   { "irps5401", "6-0044",            "", "pout1", "     PSDDR4", "mW", 1000 },
+   { "irps5401", "6-0044",            "", "pout2", "     INT_IO", "mW", 1000 },
+   { "irps5401", "6-0044",            "", "pout3", "       3.3V", "mW", 1000 },
+   { "irps5401", "6-0044",            "", "pout4", "        INT", "mW", 1000 },
+   { "irps5401", "6-0044",            "", "pout5", "   PSDDRPLL", "mW", 1000 },
+   { "irps5401", "6-0044", "temp1_input", "temp1", "Temperature",  "C", 1000 },
+   // irps5401-i2c-6-45
+   { "irps5401", "6-0045",            "", "pout1", "    MGTAVCC", "mW", 1000 },
+   { "irps5401", "6-0045",            "", "pout2", "         5V", "mW", 1000 },
+   { "irps5401", "6-0045",            "", "pout3", "       3.3V", "mW", 1000 },
+   { "irps5401", "6-0045",            "", "pout4", "  VCCO 1.8V", "mW", 1000 },
+   { "irps5401", "6-0045",            "", "pout5", "    MGTAVTT", "mW", 1000 },
+   { "irps5401", "6-0045", "temp1_input", "temp1", "Temperature",  "C", 1000 },
    //
    { "", "", "", "", "", 1 } 
 };
