@@ -27,6 +27,20 @@ int get_ram_memory_utilization(unsigned long* MemTotal, unsigned long* MemFree, 
 int print_swap_memory_utilization(int verbose_flag);
 int get_swap_memory_utilization(unsigned long* SwapTotal, unsigned long* SwapFree);
 
+int print_ultra96v2_power_info(int verbose_flag);
+struct pmbus_info {
+
+    char* device;
+    char* address;
+    char *name;
+    char* label;
+    char* alias;
+    char* unit;
+    long division;
+};
+int get_pmbus_device_filename(int verbose_flag, struct pmbus_info *pInfo, char *filename);
+void print_pmbus_info(int verbose_flag, struct pmbus_info pmbus_list[]);
+
 int print_power_utilization(int verbose_flag);
 int print_ina260_power_info(int verbose_flag);
 int count_hwmon_reg_devices();
